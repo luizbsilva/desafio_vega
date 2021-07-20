@@ -31,14 +31,14 @@ public class SwaggerConfig {
     @Bean
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2).select()
-                .apis(RequestHandlerSelectors.basePackage("br.com.sura.api.controllers"))
+                .apis(RequestHandlerSelectors.basePackage("br.com.vega.api.controllers"))
                 .paths(PathSelectors.any()).build()
                 .apiInfo(apiInfo());
     }
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder().title("Desafio Desenvolvedor JAVA")
-                .description("Documentação da API de acesso aos endpoints do Desafio de Desenvolvedor JAVA para a SURA Seguros.").version("1.0")
+                .description("Documentação da API de acesso aos endpoints do Desafio de Desenvolvedor JAVA para a Vega monitoramento.").version("1.0")
                 .build();
     }
 
