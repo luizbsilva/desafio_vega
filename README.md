@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/m4rciosouza/ponto-inteligente-api.svg?branch=master)](https://travis-ci.org/m4rciosouza/ponto-inteligente-api)
 # Desafio Desenvolvedor JAVA
 API do Desafio Desenvolvedor JAVA - VEGA MONITORAMENTO com Java e Spring Boot.
 ### Detalhes da API RESTful
